@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+
+
+@media screen and (min-width: 1024px) {
+    .containers {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+            url("./img/bg_image.jpg");
+        height: 729px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .containers {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url("./img/bg_image_mobile.jpg");
+        background-size: 100% 100%;
+        height: 420px;
+    }
+}
+
+.nobackground {
+    background-image: none;
+    color: black;
+}
+
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+input {
+    border: 1px solid grey;
+}
+
+input:focus {
+    color: black;
+    outline: none;
+}
+
+* {
+    font-family: "Inter", sans-serif;
+
+    ::-moz-selection {
+        /* Code for Firefox */
+        background: #fbd84b;
+        color: black;
+    }
+
+    ::selection {
+        background: #fbd84b;
+        color: black;
+    }
+}
+
+.napn {
+    font-family: "Lexend", sans-serif;
+}
+
+.topfooter {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),
+        url("./img/footer_background.jpg");
+    height: 500px;
+}
+
+.creds {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+        url("./img/registerbackground.jpg");
+    height: 800px;
+}
+
+
+
+
+.contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+        url("./img/contactpage.jpg");
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (min-width: 1024px) {
+    .contact {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+            url("./img/contactpage.jpg");
+        height: 450px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contact {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+            url("./img/contactpagemobile.jpg");
+        height: 350px;
+    }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .about {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+            url("./img/aboutbackground.jpg");
+        height: 450px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+            url("./img/aboutbackgroundmobile.jpg");
+        height:320px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}

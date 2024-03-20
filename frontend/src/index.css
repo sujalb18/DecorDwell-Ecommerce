@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+.napn{
+    font-family: "Lexend", sans-serif;
+}
+@tailwind utilities;
